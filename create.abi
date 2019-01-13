@@ -1,0 +1,36 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sun Jan 13 16:43:52 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "crt",
+            "base": "",
+            "fields": [
+                {
+                    "name": "newact",
+                    "type": "name"
+                },
+                {
+                    "name": "owner",
+                    "type": "string"
+                },
+                {
+                    "name": "active",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "crt",
+            "type": "crt",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
